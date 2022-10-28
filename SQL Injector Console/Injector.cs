@@ -16,8 +16,7 @@ namespace SQL_Injector_Console
         string url = "";
         public void Start()
         {
-            Console.Write("url: ");
-            url = Console.ReadLine();
+            url = "http://mofa-easj.dk/sites/sql/login.php";
             Console.Write("press any key to start");
             Console.ReadKey();
             Inject();
