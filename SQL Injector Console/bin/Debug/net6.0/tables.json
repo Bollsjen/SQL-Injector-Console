@@ -1,0 +1,210 @@
+[
+  {
+    "Key": "information_schema",
+    "Value": "ALL_PLUGINS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "APPLICABLE_ROLES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "CHARACTER_SETS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "CHECK_CONSTRAINTS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "COLLATIONS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "COLLATION_CHARACTER_SET_APP..."
+  },
+  {
+    "Key": "information_schema",
+    "Value": "COLUMNS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "COLUMN_PRIVILEGES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "ENABLED_ROLES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "ENGINES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "EVENTS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "FILES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "GLOBAL_STATUS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "GLOBAL_VARIABLES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "KEYWORDS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "KEY_CACHES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "KEY_COLUMN_USAGE"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "PARAMETERS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "PARTITIONS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "PLUGINS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "PROCESSLIST"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "PROFILING"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "REFERENTIAL_CONSTRAINTS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "ROUTINES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "SCHEMATA"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "SCHEMA_PRIVILEGES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "SESSION_STATUS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "SESSION_VARIABLES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "STATISTICS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "SQL_FUNCTIONS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "SYSTEM_VARIABLES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "TABLES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "TABLESPACES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "TABLE_CONSTRAINTS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "TABLE_PRIVILEGES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "TRIGGERS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "USER_PRIVILEGES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "VIEWS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "GEOMETRY_COLUMNS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "SPATIAL_REF_SYS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "CLIENT_STATISTICS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "INDEX_STATISTICS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "INNODB_SYS_DATAFILES"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "USER_STATISTICS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "INNODB_SYS_TABLESTATS"
+  },
+  {
+    "Key": "information_schema",
+    "Value": "INNODB_LOCKS"
+  },
+  {
+    "Key": "mofa_easj_dk",
+    "Value": "exam"
+  },
+  {
+    "Key": "mofa_easj_dk",
+    "Value": "examiner"
+  },
+  {
+    "Key": "mofa_easj_dk",
+    "Value": "examregistry"
+  },
+  {
+    "Key": "mofa_easj_dk",
+    "Value": "login"
+  },
+  {
+    "Key": "mofa_easj_dk",
+    "Value": "students"
+  },
+  {
+    "Key": "mofa_easj_dk",
+    "Value": "users"
+  }
+]

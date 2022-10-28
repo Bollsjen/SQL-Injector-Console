@@ -1,0 +1,19 @@
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\bin\Debug\net6.0\SQL Injector Console.exe
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\bin\Debug\net6.0\SQL Injector Console.deps.json
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\bin\Debug\net6.0\SQL Injector Console.runtimeconfig.json
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\bin\Debug\net6.0\SQL Injector Console.dll
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\bin\Debug\net6.0\SQL Injector Console.pdb
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\bin\Debug\net6.0\Newtonsoft.Json.dll
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\bin\Debug\net6.0\WebDriver.dll
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\obj\Debug\net6.0\SQL Injector Console.csproj.AssemblyReference.cache
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\obj\Debug\net6.0\SQL Injector Console.GeneratedMSBuildEditorConfig.editorconfig
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\obj\Debug\net6.0\SQL Injector Console.AssemblyInfoInputs.cache
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\obj\Debug\net6.0\SQL Injector Console.AssemblyInfo.cs
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\obj\Debug\net6.0\SQL Injector Console.csproj.CoreCompileInputs.cache
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\obj\Debug\net6.0\SQL Injector Console.csproj.CopyComplete
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\obj\Debug\net6.0\SQL Injector Console.dll
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\obj\Debug\net6.0\refint\SQL Injector Console.dll
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\obj\Debug\net6.0\SQL Injector Console.pdb
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\obj\Debug\net6.0\SQL Injector Console.genruntimeconfig.cache
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\obj\Debug\net6.0\ref\SQL Injector Console.dll
+A:\CSharp Hygge\SQL Injector Console\SQL Injector Console\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
